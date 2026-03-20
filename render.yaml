@@ -1,0 +1,12 @@
+# Render Blueprint — static site (Vite + React)
+# After this repo is on GitHub, connect it in Render: New → Blueprint → select repo,
+# or New → Static Site and use the same build/publish settings below.
+#
+# https://render.com/docs/static-sites
+
+services:
+  - type: web
+    name: createai-research-report
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
