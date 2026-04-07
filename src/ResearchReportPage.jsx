@@ -81,7 +81,7 @@ const researchData = {
     },
     {
       id: 3,
-      title: "We have not defined why CreateAI exists for users",
+      title: "Lack of time is the top reason why CreateAI is not used",
       signal:
         "Users deprioritize CreateAI in favor of tools that feel faster and more predictable, only engaging when they have time to explore rather than to complete a task.",
       impact: "Low engagement -> users don't move beyond initial trials",
